@@ -1,0 +1,182 @@
+.cabecera
+{
+    display: flex
+}
+
+.tuguitarra
+{
+    font: 50px helvetica;
+}
+
+.intro
+{
+    font: 120% arial;
+}
+
+nav 
+{
+    font: 20px arial;
+    margin:0 auto;
+    width:100%;
+    height:auto;
+    display:inline-block;
+    background:#37bc9b;
+}
+
+nav ul 
+{
+    margin:0;
+    padding:0;
+    list-style-type:none;
+    display:inline-block;
+}
+
+nav ul li 
+{
+    position:relative;
+    margin:0 20px 0 0;
+    display:inline-block;
+}
+
+li > a:after 
+{ 
+    content: ' »'; 
+}
+
+li > a:only-child:after 
+{ 
+    content: ''; 
+}
+
+nav ul li a 
+{
+    padding:20px;
+    display:inline-block;
+    color:white;
+    text-decoration:none;
+}
+
+nav ul li a:hover 
+{
+    opacity:0.5;
+}
+
+nav ul li ul 
+{
+    display:none;
+    position:absolute;
+    left:0;
+    background:#37bc9b;
+    float:left;
+}
+
+nav ul li ul li 
+{
+    width:100%;
+    border-bottom:1px solid rgba(255,255,255,.3);
+}
+
+nav ul li:hover ul 
+{
+    display:block;  
+}
+
+.form-group 
+{
+    margin-bottom: 20px;
+}
+  
+label 
+{
+    display: block;
+    margin-bottom: 5px;
+}
+  
+input[type="text"],
+input[type="email"],
+textarea 
+{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+  
+input[type="submit"] 
+{
+    background-color: #2196F3;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+  
+input[type="submit"]:hover 
+{
+    background-color: #0D8FED;
+}
+
+.contact-prompt
+{
+    font: 20px helv
+}
+
+table, tr, td
+{
+    vertical-align: middle;
+    text-align: center;
+}
+
+table
+{
+    margin: auto;
+}
+
+iframe
+{
+    margin: auto;
+    display: block;
+}
+
+th, td 
+{
+    padding: 15px;
+}
+
+.row 
+{
+    display: flex;
+}
+  
+.column 
+{
+    flex: 33.33%;
+}
+
+.text-over-image 
+{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.bottom-left 
+{
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-size: 40px;
+    -webkit-text-stroke: 1px #000;
+}
+
+.text-over-image img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
