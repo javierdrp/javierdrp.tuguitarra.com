@@ -1,1 +1,7 @@
-# javierdrp.tuguitarra.com
+# TuGuitarra.com
+* Inicio
+* Productos
+    * Acústicas
+    * Clásicas
+    * Ukeleles
+* Contacto
