@@ -4,6 +4,7 @@
         <title>TuGuitarra.com</title>
         <link rel="stylesheet" href="stylesheet.css">
         <link rel="shortcut icon" href="https://www.freeiconspng.com/thumbs/guitar-icon-png/guitar-icon-png-30.png">
+        <script src="contacto.js"></script>
         <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body>
@@ -34,20 +35,22 @@
 
         <form>
             <div class="form-group">
-              <label for="name">Nombre</label>
-              <input type="text" id="name" name="name">
+              <label for="nombre">Nombre</label>
+              <input type="text" id="nombre" name="nombre">
             </div>
             <div class="form-group">
-              <label for="email">Correo electrónico*</label>
-              <input type="email" id="email" name="email" required>
+              <label for="email">Correo electrónico</label>
+              <input type="text" id="email" name="email">
             </div>
             <div class="form-group">
-              <label for="message">Mensaje</label>
-              <textarea id="message" name="message" required></textarea>
+              <label for="mensaje">Mensaje</label>
+              <textarea id="mensaje" name="mensaje"></textarea>
             </div>
             <div class="form-group">
-              <input type="submit" value="Enviar">
+              <button type="button" onclick="enviarContacto()" id="btnEnviar">Enviar</button>
             </div>
+
+            <div id="erroresContacto"></div>
         </form>
     </body>
 </html>

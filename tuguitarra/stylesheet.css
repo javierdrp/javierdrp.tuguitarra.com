@@ -104,22 +104,6 @@ textarea
     font-size: 16px;
     margin-bottom: 10px;
 }
-  
-input[type="submit"] 
-{
-    background-color: #2196F3;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
-}
-  
-input[type="submit"]:hover 
-{
-    background-color: #0D8FED;
-}
 
 .contact-prompt
 {
